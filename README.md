@@ -14,7 +14,7 @@ So, I will upload all of code in my Unity game.
 Compared to the initial plan, the game’s flow has changed significantly, making the code messier than expected.
 C# script in hierarchy
 
-Manager : (8)
+Manager : (9)
 audioManager
 CurrencyManager
 Game_ButtonManager
@@ -23,6 +23,7 @@ GameManger
 loadingbuttonManager
 magicManager
 spkieManager
+ScreenManager
 
 Character : (4)
 character
@@ -38,9 +39,8 @@ Magic : (2)
 game_magic
 spike
 
-CharacterMagic : (2)
+CharacterMagic : (1)
 magic
-magicManager
 
 tutorial : (1)
 tutoial
@@ -48,8 +48,9 @@ tutoial
 upgrade : (1)
 upgrade_unit
 
-screenManager : (1)
-ScreenManager
+Lose : (1)
+checkEnemy
+
 
 You can see 21 c# files in DungeonWars.
 
